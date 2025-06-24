@@ -11,7 +11,7 @@ async:
   # **Experimental feature**
   # Enables parallel world ticking to improve performance on multi-core systems.
   parallel-world-ticking:
-    enabled: false
+    enabled: true
     threads: 8
     log-container-creation-stacktraces: false
     disable-hard-throw: false
@@ -19,7 +19,7 @@ async:
   # Make entity tracking saving asynchronously, can improve performance significantly,
   # especially in some massive entities in small area situations.
   async-entity-tracker:
-    enabled: false
+    enabled: true
     # Enable compat mode ONLY if Citizens or NPC plugins using real entity has installed,
     # Compat mode fixed visible issue with player type NPCs of Citizens,
     # But still recommend to use packet based / virtual entity NPC plugin, e.g. ZNPC Plus, Adyeshach, Fancy NPC or else.
@@ -30,16 +30,16 @@ async:
   # This moves the expensive entity and block search calculations to background thread while
   # keeping the actual validation on the main thread.
   async-target-finding:
-    enabled: false
+    enabled: true
     async-alert-other: true
     async-search-block: true
     async-search-entity: true
     queue-size: 0
   # Make PlayerData saving asynchronously.
   async-playerdata-save:
-    enabled: false
+    enabled: true
   async-pathfinding:
-    enabled: false
+    enabled: true
     max-threads: 0
     keepalive: 60
     queue-size: 0
@@ -59,13 +59,13 @@ async:
   # This offloads structure locating to other threads.
   # Only for locate command, dolphin treasure finding and eye of ender currently.
   async-locator:
-    enabled: false
+    enabled: true
     threads: 0
     keepalive: 60
   # Makes chunk packet preparation and sending asynchronous to improve server performance.
   # This can significantly reduce main thread load when many players are loading chunks.
   async-chunk-send:
-    enabled: false
+    enabled: true
 
 ##########
 #  PERF  #
@@ -81,7 +81,7 @@ performance:
   use-virtual-thread-for-async-scheduler: true
   create-snapshot-on-retrieving-blockstate: true
   throttle-mob-spawning:
-    enabled: false
+    enabled: true
     monster:
       min-failed: 8
       spawn-chance: 25.0
@@ -138,13 +138,13 @@ performance:
   # Requires a JVM that supports RandomGenerator.
   # Some JREs don't support this.
   faster-random-generator:
-    enabled: false
+    enabled: true
     # Which random generator will be used?
     # See https://openjdk.org/jeps/356
     random-generator: Xoroshiro128PlusPlus
     # Enable faster random generator for world generation.
     # WARNING: This will affect world generation!!!
-    enable-for-worldgen: false
+    enable-for-worldgen: true
     # Warn if you are not using legacy random source for slime chunk generation.
     warn-for-slime-chunk: true
     # Use legacy random source for slime chunk generation,
@@ -156,7 +156,7 @@ performance:
   fast-biome-manager-seed-obfuscation:
     # **EXPERMIENTAL FEATURE**
     # Replace vanilla SHA-256 seed obfuscation in BiomeManager with XXHash.
-    enabled: false
+    enabled: true
     # Seed obfuscation key for XXHash.
     seed-obfuscation-key: -1839494445918923340
   # Whether to cache the isEyeInFluid method to improve performance and reduce memory usage.
