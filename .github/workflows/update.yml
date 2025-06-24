@@ -1,0 +1,56 @@
+# Nama workflow yang akan tampil di tab Actions GitHub
+name: Download and Update Spigot JAR
+
+# Pemicu workflow
+on:
+  # Memungkinkan workflow ini dijalankan secara manual dari tab Actions
+  workflow_dispatch:
+
+# Daftar pekerjaan (jobs) yang akan dijalankan
+jobs:
+  # Nama job
+  update-jar:
+    # Menentukan bahwa job ini akan berjalan di runner Ubuntu versi terbaru
+    runs-on: ubuntu-latest
+
+    # Memberikan izin kepada GITHUB_TOKEN agar bisa menulis (push) ke repositori
+    # Ini adalah langkah yang sangat penting agar push berhasil
+    permissions:
+      contents: write
+
+    # Langkah-langkah yang akan dieksekusi oleh job
+    steps:
+      # Langkah 1: Checkout kode repositori
+      # Ini diperlukan agar workflow bisa mengakses file di repositori Anda
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Langkah 2: Download dan rename file JAR
+      # Menggunakan curl untuk mengunduh file dan menyimpannya langsung sebagai spigot.jar
+      - name: Download and Rename JAR file
+        run: curl -L -o spigot.jar "https://api.leafmc.one/v2/projects/leaf/versions/1.21.5/builds/55/downloads/leaf-1.21.5-55.jar"
+
+      # Langkah 3: Commit dan Push file ke repositori
+      # Langkah ini akan mengkonfigurasi Git, menambahkan file, membuat commit, dan mendorongnya ke branch utama
+      - name: Commit and Push changes
+        run: |
+          # Konfigurasi identitas Git untuk bot actions
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # Tambahkan file spigot.jar ke staging area
+          git add spigot.jar
+
+          # Periksa apakah ada perubahan pada file. Jika tidak, hentikan proses.
+          # Ini mencegah commit kosong jika file yang diunduh sama dengan yang sudah ada.
+          if git diff --staged --quiet; then
+            echo "File spigot.jar tidak berubah. Tidak ada yang perlu di-commit."
+            exit 0
+          fi
+
+          # Buat commit dengan pesan yang jelas
+          git commit -m "Automated: Update spigot.jar to Leaf 1.21.5-55"
+
+          # Lakukan push ke branch utama repositori
+          # Token GITHUB_TOKEN secara otomatis digunakan oleh GitHub Actions untuk otentikasi
+          git push
