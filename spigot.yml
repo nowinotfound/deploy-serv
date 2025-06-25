@@ -11,6 +11,7 @@
 # Website: https://papermc.io/
 
 messages:
+  unknown-command: Unknown command. Type "/help" for help.
   whitelist: You are not whitelisted on this server!
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}

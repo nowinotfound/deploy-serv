@@ -127,6 +127,9 @@ spam-limiter:
 spark:
   enable-immediately: false
   enabled: true
+threaded-regions:
+  grid-exponent: 4
+  threads: -1
 unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
