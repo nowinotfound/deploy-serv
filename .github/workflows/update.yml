@@ -28,7 +28,7 @@ jobs:
       # Langkah 2: Download dan rename file JAR
       # Menggunakan curl untuk mengunduh file dan menyimpannya langsung sebagai spigot.jar
       - name: Download and Rename JAR file
-        run: curl -L -o spigot.jar "https://api.leafmc.one/v2/projects/leaf/versions/1.21.5/builds/55/downloads/leaf-1.21.5-55.jar"
+        run: curl -L -o spigot.jar "https://github.com/neokoni/folia_build_action/releases/download/2025-06-21/main.folia-paperclip-1.21.5-R0.1-SNAPSHOT-mojmap.jar"
 
       # Langkah 3: Commit dan Push file ke repositori
       # Langkah ini akan mengkonfigurasi Git, menambahkan file, membuat commit, dan mendorongnya ke branch utama
