@@ -1,10 +1,10 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 muted: false
 jailed: false
 ip-address: 157.15.1.165
-afk: false
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
