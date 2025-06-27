@@ -11,7 +11,7 @@
 		enabled = false
 
 	[experiment.force_the_data_command_to_be_enabled]
-		enable = false
+		enable = true
 
 	[fixes.allow_unsafe_teleportation]
 		#Allow non player entities enter end portals if enabled.
