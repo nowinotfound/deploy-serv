@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751007008938
+  logout: 1751033906846
   login: 1751033895588
 money: '0'
 last-account-name: bazzd
 logoutlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
-  x: -2378.221351985225
-  y: 67.9375
-  z: -701.381170508073
-  yaw: 159.4490966796875
-  pitch: 15.000089645385742
+  x: -2374.5091601700606
+  y: 68.5
+  z: -692.8314480788798
+  yaw: -17.100915908813477
+  pitch: 10.200091361999512
