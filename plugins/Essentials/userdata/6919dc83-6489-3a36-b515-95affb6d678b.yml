@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1750992609693
   login: 1750992168124
 money: '0'
 last-account-name: NadhifX
+logoutlocation:
+  world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+  world-name: world
+  x: -10.69999
+  y: 88.0
+  z: 5.69999
+  yaw: -109.2369384765625
+  pitch: 2.8488922119140625
