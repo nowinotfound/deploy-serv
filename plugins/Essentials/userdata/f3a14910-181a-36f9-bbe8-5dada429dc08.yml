@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1751036588591
   login: 1751035431486
 money: '0'
 last-account-name: Kleris
+logoutlocation:
+  world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+  world-name: world
+  x: 253.5
+  y: 114.0
+  z: 220.5
+  yaw: -99.10775756835938
+  pitch: 58.99283981323242
