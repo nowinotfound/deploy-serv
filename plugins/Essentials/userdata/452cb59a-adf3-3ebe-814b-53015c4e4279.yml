@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 0:0:0:0:0:0:0:1
+ip-address: 157.15.1.167
 afk: false
 socialspy: false
 npc: false
@@ -17,7 +17,7 @@ timestamps:
   jail: 0
   onlinejail: 0
   logout: 1750777410770
-  login: 1750776600250
+  login: 1750992150379
 money: '0'
 last-account-name: ItzYuuRz
 logoutlocation:
