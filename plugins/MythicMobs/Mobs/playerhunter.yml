@@ -1,7 +1,7 @@
 PlayerHunter:
   Type: VILLAGER
   Health: 40.0
-  Damage: 3.0
+  Damage: 1.0
   Armor: 10.0
   Faction: hunter
   Skills:
