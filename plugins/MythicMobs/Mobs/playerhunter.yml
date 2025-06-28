@@ -12,3 +12,4 @@ PlayerHunter:
   - 0 players
   Skills:
   - doppleganger
+  - breakblock{forcesync=true}
