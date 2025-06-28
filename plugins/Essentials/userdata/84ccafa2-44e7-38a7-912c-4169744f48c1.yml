@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1751097106297
   login: 1751097027434
 money: '0'
 last-account-name: SlimWarrior7777
+logoutlocation:
+  world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+  world-name: world
+  x: 99.69999
+  y: 96.0
+  z: 24.388403
+  yaw: -130.63609313964844
+  pitch: 23.10284423828125
