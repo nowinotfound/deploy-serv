@@ -4,3 +4,5 @@ PlayerHunter:
   Damage: 20.0
   Armor: 10.0
   Faction: hunter
+  Skills:
+  - doppleganger
