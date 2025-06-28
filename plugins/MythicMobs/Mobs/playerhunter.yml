@@ -13,3 +13,5 @@ PlayerHunter:
   - 1 randomlookaround
   Options:
     Silent: true
+    AttackSpeed: 1.5
+    RepeatAllSkills: true
