@@ -9,6 +9,7 @@ PlayerHunter:
   - 0 lookatplayers
   - 1 fleeplayers
   - 2 meleeattack
+  - 3 fleeplayers
   AITargetSelectors:
   - 0 players
   Skills:
