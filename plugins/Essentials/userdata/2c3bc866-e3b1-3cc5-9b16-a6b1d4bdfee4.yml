@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1751038011990
+  lastteleport: 1751081844407
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,11 +23,11 @@ last-account-name: Nagisa4789
 lastlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
-  x: -2540.6191
-  y: 64.0
-  z: -753.3451
-  yaw: 87.80609130859375
-  pitch: 20.399551391601562
+  x: -2518.2947
+  y: 63.0
+  z: -647.2484
+  yaw: -166.2473907470703
+  pitch: 14.532135009765625
 logoutlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
