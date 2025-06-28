@@ -1,23 +1,2 @@
 PlayerHunter:
   Type: VILLAGER
-  Health: 50.0
-  Damage: 20.0
-  Armor: 10.0
-  Drops:
-  - exp 40 12.59
-  AIGoalSelectors:
-  - 0 lookatplayers
-  - 1 fleeplayers
-  - 2 meleeattack
-  - 3 fleeplayers
-  - 4 clear
-  AITargetSelectors:
-  - 0 players
-  Skills:
-  - doppleganger
-  - breakblock{forcesync=true}
-  Options:
-    Despawn: true
-    FollowRange: 44.0
-    RepeatAllSkills: true
-    Silent: true
