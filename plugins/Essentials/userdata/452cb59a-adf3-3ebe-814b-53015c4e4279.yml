@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751101095691
+  logout: 1751101410518
   login: 1751101104785
 money: '2442.00'
 last-account-name: ItzYuuRz
 logoutlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
-  x: -2406.267
-  y: 64.0
-  z: -620.20496
-  yaw: -56.529541015625
-  pitch: 23.899887084960938
+  x: -2386.0325
+  y: 69.12999
+  z: -631.6106
+  yaw: -14.63104248046875
+  pitch: 39.494903564453125
 lastlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
