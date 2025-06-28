@@ -36,3 +36,12 @@ lastlocation:
   z: -7.5
   yaw: 0.0
   pitch: 0.0
+homes:
+  home:
+    world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+    world-name: world
+    x: -2370.0515
+    y: 82.0
+    z: -629.3793
+    yaw: 173.96746826171875
+    pitch: 19.230239868164062
