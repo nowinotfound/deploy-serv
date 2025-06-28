@@ -10,3 +10,6 @@ PlayerHunter:
   - 0 players
   AIGoalSelectors:
   - 0 meleeattack
+  - 1 randomlookaround
+  Options:
+    Silent: true
