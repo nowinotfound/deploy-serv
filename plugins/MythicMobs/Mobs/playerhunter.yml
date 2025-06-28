@@ -6,3 +6,7 @@ PlayerHunter:
   Faction: hunter
   Skills:
   - doppleganger
+  AITargetSelectors:
+  - 0 players
+  AIGoalSelectors:
+  - 0 meleeattack
