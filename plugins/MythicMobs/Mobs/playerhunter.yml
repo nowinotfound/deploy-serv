@@ -7,3 +7,6 @@ PlayerHunter:
   - exp 40 12.59
   AIGoalSelectors:
   - 0 lookatplayers
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 players
