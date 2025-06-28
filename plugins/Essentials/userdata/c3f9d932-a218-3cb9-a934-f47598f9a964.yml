@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751110544472
+  logout: 1751114040416
   login: 1751112893661
 money: '0'
 last-account-name: Daexi2459
 logoutlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
-  x: 341.261
-  y: 124.0
-  z: 27.603401
-  yaw: -103.00160217285156
-  pitch: 44.7742919921875
+  x: -2422.6602
+  y: 63.0
+  z: -606.9193
+  yaw: -99.8280258178711
+  pitch: 16.429580688476562
 lastlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
