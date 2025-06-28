@@ -3,7 +3,7 @@ teleportauto: false
 godmode: true
 muted: false
 jailed: false
-ip-address: 128.199.230.173
+ip-address: 157.15.1.160
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751080879252
-  login: 1751080750224
+  logout: 1751080905659
+  login: 1751080922653
 money: '0'
 last-account-name: ItzYuuRz
 logoutlocation:
@@ -26,8 +26,8 @@ logoutlocation:
   x: -2378.8857
   y: 68.0
   z: -690.07336
-  yaw: 112.19158935546875
-  pitch: 72.7474365234375
+  yaw: 72.51643371582031
+  pitch: 36.371856689453125
 lastlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
