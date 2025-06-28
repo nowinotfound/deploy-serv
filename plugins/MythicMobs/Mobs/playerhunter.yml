@@ -5,3 +5,5 @@ PlayerHunter:
   Armor: 10.0
   Drops:
   - exp 40 12.59
+  AIGoalSelectors:
+  - 0 lookatplayers
