@@ -16,4 +16,4 @@ PlayerHunter:
     AttackSpeed: 1.5
     RepeatAllSkills: true
     Despawn: true
-    MovementSpeed: 0.75
+    MovementSpeed: 0.2
