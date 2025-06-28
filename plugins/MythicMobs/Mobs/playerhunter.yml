@@ -13,3 +13,5 @@ PlayerHunter:
   Skills:
   - doppleganger
   - breakblock{forcesync=true}
+  Options:
+    Despawn: true
