@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751095717696
+  logout: 1751096246596
   login: 1751095732984
 money: '0'
 last-account-name: MiracleAde
 logoutlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
-  x: 12.690048
+  x: 2.5
   y: 122.0
-  z: 6.703017
-  yaw: 119.55111694335938
-  pitch: 4.842041015625
+  z: 4.5
+  yaw: 37.418548583984375
+  pitch: -73.96247100830078
