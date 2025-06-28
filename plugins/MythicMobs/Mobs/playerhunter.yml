@@ -15,3 +15,6 @@ PlayerHunter:
   - breakblock{forcesync=true}
   Options:
     Despawn: true
+    FollowRange: 44.0
+    RepeatAllSkills: true
+    Silent: true
