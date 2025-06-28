@@ -1,2 +1,5 @@
 PlayerHunter:
   Type: VILLAGER
+  Health: 50.0
+  Damage: 20.0
+  Armor: 10.0
