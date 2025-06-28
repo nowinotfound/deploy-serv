@@ -1,7 +1,7 @@
 PlayerHunter:
   Type: VILLAGER
   Health: 40.0
-  Damage: 20.0
+  Damage: 5.0
   Armor: 10.0
   Faction: hunter
   Skills:
@@ -12,7 +12,7 @@ PlayerHunter:
   - 0 meleeattack
   - 1 randomlookaround
   Options:
-    Silent: true
+    Silent: false
     AttackSpeed: 1.5
     RepeatAllSkills: true
     Despawn: true
