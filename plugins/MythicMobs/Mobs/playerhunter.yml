@@ -10,6 +10,7 @@ PlayerHunter:
   - 1 fleeplayers
   - 2 meleeattack
   - 3 fleeplayers
+  - 4 clear
   AITargetSelectors:
   - 0 players
   Skills:
