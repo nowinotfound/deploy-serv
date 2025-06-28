@@ -3,3 +3,5 @@ PlayerHunter:
   Health: 50.0
   Damage: 20.0
   Armor: 10.0
+  Drops:
+  - exp 40 12.59
