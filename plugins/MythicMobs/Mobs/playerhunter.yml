@@ -8,6 +8,7 @@ PlayerHunter:
   AIGoalSelectors:
   - 0 lookatplayers
   - 1 fleeplayers
+  - 2 meleeattack
   AITargetSelectors:
   - 0 players
   Skills:
