@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751110362552
+  logout: 1751113950318
   login: 1751112951411
 money: '0'
 last-account-name: Nagisa4789
@@ -31,11 +31,11 @@ lastlocation:
 logoutlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
-  x: -2370.244
+  x: -2369.5
   y: 82.0
-  z: -640.4669
-  yaw: -46.97096252441406
-  pitch: 20.65081787109375
+  z: -627.5
+  yaw: -90.0
+  pitch: 0.0
 homes:
   home:
     world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
