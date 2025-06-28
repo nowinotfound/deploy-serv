@@ -1,3 +1,4 @@
 PlayerHunterSpawner:
   Type: PlayerHunter
   Chance: 7.19
+  Worlds: world
