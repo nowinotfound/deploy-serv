@@ -7,3 +7,4 @@ PlayerHunterSpawner:
   UseWorldScaling: false
   Conditions:
   - day true
+  Level: 1
