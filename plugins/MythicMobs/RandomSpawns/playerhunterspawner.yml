@@ -3,3 +3,5 @@ PlayerHunterSpawner:
   Worlds: world
   Chance: 20.0
   Reason: DEFAULT
+  PointType: GROUND
+  UseWorldScaling: false
