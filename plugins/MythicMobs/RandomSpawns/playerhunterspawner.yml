@@ -2,3 +2,4 @@ PlayerHunterSpawner:
   Type: PlayerHunter
   Worlds: world
   Chance: 20.0
+  Reason: DEFAULT
