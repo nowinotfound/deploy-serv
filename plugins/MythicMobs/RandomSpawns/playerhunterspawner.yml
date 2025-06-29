@@ -8,4 +8,5 @@ PlayerHunterSpawner:
   Conditions:
   - day true
   - altitude{a=0}
+  - onground true
   Level: 1
