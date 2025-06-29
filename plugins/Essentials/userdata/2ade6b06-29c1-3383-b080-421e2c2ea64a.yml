@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751179348212
+  logout: 1751181398512
   login: 1751179510620
 money: '0'
 last-account-name: NakanoChan613
 logoutlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
-  x: 40.220311472514005
-  y: 105.0625
-  z: 3.158495978701728
-  yaw: -164.1001739501953
-  pitch: 32.10000991821289
+  x: 97.1531471946832
+  y: 117.0
+  z: 234.6127940794624
+  yaw: -143.09735107421875
+  pitch: 17.54998779296875
