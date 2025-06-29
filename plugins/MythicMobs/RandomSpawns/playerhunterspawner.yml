@@ -5,3 +5,5 @@ PlayerHunterSpawner:
   Reason: DEFAULT
   PointType: GROUND
   UseWorldScaling: false
+  Conditions:
+  - day true
