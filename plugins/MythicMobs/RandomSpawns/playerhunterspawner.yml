@@ -7,4 +7,5 @@ PlayerHunterSpawner:
   UseWorldScaling: false
   Conditions:
   - day true
+  - altitude{a=0}
   Level: 1
