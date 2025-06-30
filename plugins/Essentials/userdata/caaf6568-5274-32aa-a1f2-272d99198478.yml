@@ -20,3 +20,11 @@ timestamps:
   login: 1751262947291
 money: '0'
 last-account-name: WaosMe
+lastlocation:
+  world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+  world-name: world
+  x: -146.3331549900561
+  y: 101.0
+  z: -366.4504668405807
+  yaw: 152.976806640625
+  pitch: 0.6001213192939758
