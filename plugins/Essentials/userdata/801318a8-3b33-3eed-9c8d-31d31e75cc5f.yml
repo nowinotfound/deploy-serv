@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1751270032370
   login: 1751263672682
 money: '0'
 last-account-name: supfeds
@@ -28,3 +28,11 @@ lastlocation:
   z: 1.402728474375681
   yaw: 144.15077209472656
   pitch: 60.60041046142578
+logoutlocation:
+  world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+  world-name: world
+  x: -344.30000001192093
+  y: 120.0
+  z: 252.87109667380372
+  yaw: -43.7347412109375
+  pitch: 24.000009536743164
