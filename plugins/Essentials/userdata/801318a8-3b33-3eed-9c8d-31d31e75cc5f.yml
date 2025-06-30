@@ -20,3 +20,11 @@ timestamps:
   login: 1751263672682
 money: '0'
 last-account-name: supfeds
+lastlocation:
+  world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+  world-name: world
+  x: 79.484962638338
+  y: 89.0
+  z: -60.24869492214134
+  yaw: -176.39976501464844
+  pitch: 14.549994468688965
