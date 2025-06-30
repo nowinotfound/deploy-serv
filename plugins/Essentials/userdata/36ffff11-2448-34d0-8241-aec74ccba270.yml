@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1751269825927
   login: 1751269626434
 money: '0'
 last-account-name: AzuraKimoshi
+logoutlocation:
+  world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+  world-name: world
+  x: 106.30001
+  y: 94.0
+  z: 40.30001
+  yaw: -99.97421264648438
+  pitch: 16.363006591796875
