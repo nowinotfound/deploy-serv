@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1751269358474
   login: 1751268981485
 money: '0'
 last-account-name: berbuluhitam635
@@ -28,3 +28,11 @@ lastlocation:
   z: -44.87582303736517
   yaw: -172.950439453125
   pitch: 20.999988555908203
+logoutlocation:
+  world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+  world-name: world
+  x: 75.31488317397256
+  y: 87.0
+  z: 277.25284254035995
+  yaw: 80.2442626953125
+  pitch: 16.949935913085938
