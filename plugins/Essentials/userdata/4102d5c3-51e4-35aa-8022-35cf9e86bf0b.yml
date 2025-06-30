@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1751251353874
   login: 1751251046302
 money: '0'
 last-account-name: DupawRamah
+logoutlocation:
+  world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+  world-name: world
+  x: 1.3000099999999999
+  y: 119.0
+  z: -5.536877
+  yaw: -113.8369140625
+  pitch: -61.24205017089844
