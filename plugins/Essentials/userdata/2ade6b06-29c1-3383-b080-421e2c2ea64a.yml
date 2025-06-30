@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1751269626115
+  lastteleport: 1751269749465
   lastheal: 0
   mute: 0
   jail: 0
@@ -43,5 +43,5 @@ lastlocation:
   x: -186.5
   y: 127.5625
   z: -2.5
-  yaw: -92.4000015258789
-  pitch: 15.450002670288086
+  yaw: 144.4500274658203
+  pitch: 15.750005722045898
