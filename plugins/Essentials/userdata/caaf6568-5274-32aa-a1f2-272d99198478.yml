@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1751264135518
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,8 +23,8 @@ last-account-name: WaosMe
 lastlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
-  x: -146.3331549900561
-  y: 101.0
-  z: -366.4504668405807
-  yaw: 152.976806640625
-  pitch: 0.6001213192939758
+  x: 109.13967537271908
+  y: 108.9375
+  z: 296.30000001192093
+  yaw: 149.09857177734375
+  pitch: -22.649702072143555
