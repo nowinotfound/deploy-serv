@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1751264924722
   login: 1751262947291
 money: '0'
 last-account-name: WaosMe
@@ -28,3 +28,11 @@ lastlocation:
   z: 296.30000001192093
   yaw: 149.09857177734375
   pitch: -22.649702072143555
+logoutlocation:
+  world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
+  world-name: world
+  x: 78.00712580557601
+  y: 125.0
+  z: 227.00043424292647
+  yaw: -76.94965362548828
+  pitch: 11.099998474121094
