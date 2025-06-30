@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1751269133565
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,8 +23,8 @@ last-account-name: berbuluhitam635
 lastlocation:
   world: 955f33e4-7204-4b1c-a5c2-d44c5ce4020c
   world-name: world
-  x: 9.523320699445199
-  y: 116.0
-  z: -5.6306138065065054
-  yaw: 165.14996337890625
-  pitch: 35.85001754760742
+  x: -10.456839695336095
+  y: 128.0
+  z: 4.667568054388584
+  yaw: 164.39996337890625
+  pitch: 13.20000171661377
