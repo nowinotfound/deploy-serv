@@ -41,11 +41,13 @@
 
 	[misc.container_expansion]
 		#range: 1~6
+		barrel_rows = 3
+		#range: 1~6
 		enderchest_rows = 3
 		#range: 1~64
 		shulker_stackable_count = 1
-		#range: 1~6
-		barrel_rows = 3
+		#Enable sneak + use to open shulker box.
+		better_shulker_box = false
 
 	[misc.end_crystal]
 		#Disable paper's End Crystal position check.
@@ -54,8 +56,9 @@
 
 	[misc.old-feature]
 		spawn_invulnerable_time = false
-		old_replaceable_by_mushrooms = false
+		old_nether_portal_collision = false
 		old_zombie_reinforcement = false
+		old_replaceable_by_mushrooms = false
 
 	[optimizations.language]
 		#Please use the key from https://minecraft.wiki/w/Language
