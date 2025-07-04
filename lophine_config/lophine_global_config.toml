@@ -1,0 +1,63 @@
+	[experiment.command]
+		#Allow to use command block
+		command_block_enabled = false
+		#Allow to use tick command
+		tick_command_enabled = false
+		#Allow to use datapack command
+		#    --- datapack hot-update unsupported, please restart server
+		datapack_command_enabled = false
+
+	[experiment.ray_tracking_entity_tracker]
+		check_interval_ms = 10
+		skip_marker_armor_stands = true
+		hitbox_limit = 50
+		tracing_distance = 48
+		enabled = false
+
+	[experiment.entity_damage_source_trace]
+		#Allow trace damage source cross different Region Scheduler.
+		enabled = false
+
+	[misc.revert_raid_changes]
+		#Enable bad omen effect infinite time
+		#    --- this config is not old version's function
+		bad_omen_infinite = false
+		#Enable players to obtain a bad omen
+		#effect when killing the raid captain
+		give_bad_omen_when_kill_raid_captain = false
+		#Disable raid self check
+		#    --- this config is not old version's function
+		skip_self_raid_check = false
+		#Revert Old raid's find spawn position logic
+		#    --- This revert MC-274911
+		use_old_position_find = false
+		#Allow players with bad omen to skip a
+		#30-second cooldown and trigger attacks directly
+		allow_skip_cooldown = false
+		#Disable y <= 96 check.
+		#If you enabled use_old_position_find, this config
+		#will useless and always behavior of enabled
+		skip_height_check = false
+
+	[misc.container_expansion]
+		#range: 1~6
+		enderchest_rows = 3
+		#range: 1~64
+		shulker_stackable_count = 1
+		#range: 1~6
+		barrel_rows = 3
+
+	[misc.end_crystal]
+		#Disable paper's End Crystal position check.
+		#It reverts to vanilla respawn dragon logic.
+		disable_end_crystal_check = false
+
+	[misc.old-feature]
+		spawn_invulnerable_time = false
+		old_replaceable_by_mushrooms = false
+		old_zombie_reinforcement = false
+
+	[optimizations.language]
+		#Please use the key from https://minecraft.wiki/w/Language
+		#Sample of format: en_us zh_cn zh_hk zh_tw
+		lang = "en_us"
