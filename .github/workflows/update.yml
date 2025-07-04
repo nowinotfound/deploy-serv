@@ -28,7 +28,7 @@ jobs:
       # Langkah 2: Download dan rename file JAR
       # Menggunakan curl untuk mengunduh file dan menyimpannya langsung sebagai spigot.jar
       - name: Download and Rename JAR file
-        run: curl -L -o spigot.jar "https://github.com/LuminolMC/LightingLuminol/releases/download/1.21.5-eb14350/lightingluminol-1.21.5-paperclip.jar"
+        run: curl -L -o spigot.jar "https://github.com/LuminolMC/Lophine/releases/download/1.21.7-692c38f/lophine-1.21.7-paperclip.jar"
 
       # Langkah 3: Commit dan Push file ke repositori
       # Langkah ini akan mengkonfigurasi Git, menambahkan file, membuat commit, dan mendorongnya ke branch utama
