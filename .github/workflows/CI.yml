@@ -42,7 +42,7 @@ jobs:
         run: ls -la
       
       - name: Run Spigot and cloudflared with auto-restart and workflow recreation
-        if: "!contains(github.event.head_commit.message, 'Auto commit every 30 seconds [no ci]')"
+        if: "!contains(github.event.head_commit.message, 'Auto commit every 60 seconds [no ci]')"
         continue-on-error: true
         env:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
@@ -81,7 +81,7 @@ jobs:
             git reset -- credentials.json
             git reset -- logs/
             
-            if ! git commit -m "Auto commit every 30 seconds [no ci]"; then
+            if ! git commit -m "Auto commit every 60 seconds [no ci]"; then
                 echo "No changes to commit or commit failed"
                 return 1
             fi
@@ -103,7 +103,7 @@ jobs:
           delete_auto_commit_workflows() {
             workflow_ids=$(curl -s -H "Authorization: token $FINE_GRAINED_PAT" \
               "https://api.github.com/repos/${REPO}/actions/runs" | \
-              jq '.workflow_runs[] | select(.head_commit.message | contains("Auto commit every 30 seconds")) | .id')
+              jq '.workflow_runs[] | select(.head_commit.message | contains("Auto commit every 60 seconds")) | .id')
             for id in $workflow_ids; do
               echo "Deleting workflow run $id"
               curl -s -X DELETE -H "Authorization: token $FINE_GRAINED_PAT" \
@@ -136,7 +136,7 @@ jobs:
           
           START_TIME=$(date +%s)
           
-          (sleep 30 && cancel_old_workflow_runs) &
+          (sleep 60 && cancel_old_workflow_runs) &
           (sleep 20 && rm credentials.json) &
 
           while true; do
@@ -164,7 +164,7 @@ jobs:
               exit 0
             fi
             
-            sleep 30
+            sleep 60
           done
 
       - name: Rerun workflow if previous step failed
