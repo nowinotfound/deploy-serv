@@ -5,7 +5,7 @@
 		tick_command_enabled = false
 		#Allow to use datapack command
 		#    --- datapack hot-update unsupported, please restart server
-		datapack_command_enabled = false
+		datapack_command_enabled = true
 
 	[experiment.ray_tracking_entity_tracker]
 		check_interval_ms = 10
